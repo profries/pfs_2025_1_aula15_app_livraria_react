@@ -35,6 +35,12 @@
       "imagem": "pequenoprincipe.jpg",
       "preco": 87,
       "id": "7245"
+    },
+    {
+      "id": "ee47",
+      "titulo": "Livro do Ries",
+      "imagem": "pequenoprincipe.jpg",
+      "preco": "100"
     }
   ]
 }

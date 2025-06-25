@@ -7,6 +7,12 @@ async function listarLivros() {
     return response.data;
 }
 
+async function inserirLivro(livro) {
+    const response = await axios.post(URI, livro);
+    return response.data;
+}
+
 export default {
-    listarLivros
+    listarLivros,
+    inserirLivro
 }
